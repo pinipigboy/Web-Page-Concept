@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace FinalProject.Models
@@ -13,10 +14,11 @@ namespace FinalProject.Models
         [Required, DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [DataType(DataType.Password), Compare("Password")]
+        [DataType(DataType.Password), Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
         [Required]
-        public bool AcceptTerms { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime Birthday { get; set; }
     }
 }

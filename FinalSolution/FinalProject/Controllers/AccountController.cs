@@ -1,6 +1,7 @@
+using System;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using FinalProject.Models;
+using FinalProject.Models; // Adjust this using directive based on your project's namespace
 
 namespace FinalProject.Controllers
 {
@@ -17,12 +18,19 @@ namespace FinalProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                Debug.WriteLine($"User {model.Username} registered successfully.");
-                
+                // Debug statements to log each piece of submitted information
+                Debug.WriteLine($"Registration Timestamp: {DateTime.Now}");
+                Debug.WriteLine($"Username: {model.Username}");
+                Debug.WriteLine($"Email: {model.Email}");
+                Debug.WriteLine($"Password: {model.Password}"); // Reminder: Logging passwords is not a best practice
+                Debug.WriteLine($"Confirm Password: {model.ConfirmPassword}"); // Including for completeness based on your instructions
+                Debug.WriteLine($"Birthday: {model.Birthday.ToString("yyyy-MM-dd")}");
+
+                // Proceed with the registration process
                 return RedirectToAction("Index", "Home");
             }
 
-            // If we got this far, something failed; redisplay the form.
+            // If we get here, something failed; redisplay the form with validation messages
             return View(model);
         }
     }
