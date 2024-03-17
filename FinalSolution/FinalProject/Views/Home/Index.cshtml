@@ -2,13 +2,33 @@
     ViewData["Title"] = "Home Page";
 }
 
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            // Example jQuery animation for feature buttons
+            $(".feature-btn").hover(
+                function() {
+                    $(this).animate({
+                        opacity: 0.75,
+                    }, 300);
+                }, function() {
+                    $(this).animate({
+                        opacity: 1.0,
+                    }, 300);
+                }
+            );
+        });
+    </script>
+}
+
 <div class="container mt-5">
     <div class="text-center mb-5">
         <h1 class="display-3">Welcome to Your Password Manager</h1>
         <p class="lead">Securely store and manage all your passwords in one place.</p>
         <hr class="my-4">
-        <p>It's easy and quick to get started.</p>
-        <a class="btn btn-primary btn-lg btn-get-started" href="#" role="button">Get Started</a>
+        <a class="btn btn-primary btn-lg" asp-controller="Account" asp-action="Register" role="button">Register Now</a>
+        <a class="btn btn-info btn-lg" asp-controller="Passwords" asp-action="Index" role="button">Manage Passwords</a>
+    </div>
     </div>
     
     <div class="row">
@@ -19,10 +39,18 @@
         <div class="col-md-6">
             <h2>Key Features</h2>
             <ul>
-                <li>Securely store passwords</li>
-                <li>Organize passwords into categories</li>
-                <li>Generate strong passwords</li>
-                <li>Access passwords from anywhere</li>
+                <li>Securely store passwords
+                    <button class="btn btn-primary feature-btn" style="margin-left:10px;">Learn More</button>
+                </li>
+                <li>Organize passwords into categories
+                    <button class="btn btn-primary feature-btn" style="margin-left:10px;">Learn More</button>
+                </li>
+                <li>Generate strong passwords
+                    <button class="btn btn-primary feature-btn" style="margin-left:10px;">Learn More</button>
+                </li>
+                <li>Access passwords from anywhere
+                    <button class="btn btn-primary feature-btn" style="margin-left:10px;">Learn More</button>
+                </li>
             </ul>
         </div>
     </div>
