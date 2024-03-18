@@ -22,9 +22,7 @@ C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net
 C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FinalProject.props
 C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FinalProject.props
 C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net8.0\scopedcss\bundle\FinalProject.styles.css
-C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net8.0\scopedcss\projectbundle\FinalProject.bundle.scp.css
 C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net8.0\FinalProject.dll
 C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net8.0\refint\FinalProject.dll
 C:\Users\sagan\final-project-pinipigboy\FinalSolution\FinalProject\obj\Debug\net8.0\FinalProject.pdb
