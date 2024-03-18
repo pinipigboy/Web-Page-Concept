@@ -5,6 +5,7 @@ using FinalProject.Models;
 
 namespace FinalProject.Controllers
 {
+    //It should be noted that this registration page technically doesn't do anything. I really only implemented it to show off POST and debugging.
     public class AccountController : Controller
     {
         [HttpGet]
