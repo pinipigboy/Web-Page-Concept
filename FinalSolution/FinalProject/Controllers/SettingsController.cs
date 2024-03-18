@@ -12,7 +12,7 @@ namespace FinalProject.Controllers
         {
             _settingsService = settingsService;
         }
-
+        //GET used to ensure the page loads correctly before anything is submitted through POST. This can be observed in other pages, too
         [HttpGet]
         public IActionResult Index()
         {

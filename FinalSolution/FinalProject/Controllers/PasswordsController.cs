@@ -11,7 +11,7 @@ public class PasswordsController : Controller
     {
         _passwordService = passwordService;
     }
-    
+    // Another GET form along with more POST forms are down below
     [HttpGet]
     public IActionResult Index(string search)
     {
