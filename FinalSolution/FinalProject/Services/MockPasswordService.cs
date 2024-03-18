@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using FinalProject.Models; // Ensure this matches the namespace of your models
+using FinalProject.Models;
 
 namespace FinalProject.Services
 {
-    // Services/MockPasswordService.cs
     public class MockPasswordService
     {
         private List<PasswordEntry> _passwordEntries = new List<PasswordEntry>();

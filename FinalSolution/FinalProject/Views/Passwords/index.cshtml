@@ -1,0 +1,40 @@
+@model IEnumerable<FinalProject.Models.PasswordEntry>
+
+<h2>Password List</h2>
+
+<table>
+    <tr>
+        <th>Website</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var entry in Model)
+    {
+        <tr>
+            <td>@entry.Website</td>
+            <td>@entry.Username</td>
+            <td>@entry.Password</td>
+            <td>
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="id" value="@entry.Id" />
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+
+<h2>Add Password</h2>
+<form asp-action="Add" method="post">
+    <input type="text" name="Website" placeholder="Website" />
+    <input type="text" name="Username" placeholder="Username" />
+    <input type="password" name="Password" placeholder="Password" />
+    <button type="submit">Add</button>
+</form>
+
+<h2>Search Passwords</h2>
+<form asp-action="Index" method="get">
+    <input type="text" name="search" placeholder="Search by website or username" />
+    <button type="submit">Search</button>
+</form>

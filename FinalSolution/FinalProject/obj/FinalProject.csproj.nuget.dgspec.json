@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\FinalProject.csproj": {}
+    "C:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\FinalProject.csproj": {}
   },
   "projects": {
-    "c:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\FinalProject.csproj": {
+    "C:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\FinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "c:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\FinalProject.csproj",
+        "projectPath": "C:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\FinalProject.csproj",
         "packagesPath": "C:\\Users\\sagan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\obj\\",
+        "outputPath": "C:\\Users\\sagan\\final-project-pinipigboy\\FinalSolution\\FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sagan\\AppData\\Roaming\\NuGet\\NuGet.Config"
