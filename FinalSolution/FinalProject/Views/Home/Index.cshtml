@@ -5,7 +5,6 @@
 @section Scripts{
     <script>
         $(document).ready(function () {
-            // Example jQuery animation for feature buttons
             $(".feature-btn").hover(
                 function() {
                     $(this).animate({
@@ -23,35 +22,21 @@
 
 <div class="container mt-5">
     <div class="text-center mb-5">
-        <h1 class="display-3">Welcome to Your Password Manager</h1>
-        <p class="lead">Securely store and manage all your passwords in one place.</p>
+        <h1 class="display-3">Welcome to SafePass!</h1>
+        <p class="lead">Securely store and manage all your passwords in one place (not really).</p>
         <hr class="my-4">
         <a class="btn btn-primary btn-lg" asp-controller="Account" asp-action="Register" role="button">Register Now</a>
         <a class="btn btn-info btn-lg" asp-controller="Passwords" asp-action="Index" role="button">Manage Passwords</a>
         <a class="btn btn-secondary btn-lg" asp-controller="Settings" asp-action="Index" role="button">Settings</a>
     </div>
 </div>
-    
-<div class="row">
+
+<div class="row justify-content-center">
     <div class="col-md-6">
         <h2>About Our Password Manager</h2>
         <p>This password manager helps you organize and protect your sensitive information. With advanced encryption techniques, your passwords are safe and accessible only to you.</p>
     </div>
-    <div class="col-md-6">
-        <h2>Key Features</h2>
-        <ul>
-            <li>Securely store passwords
-                <button class="btn btn-primary feature-btn" style="margin-left:10px;">Learn More</button>
-            </li>
-            <li>Organize passwords into categories
-                <button class="btn btn-primary feature-btn" style="margin-left:10px;">Learn More</button>
-            </li>
-            <li>Generate strong passwords
-                <button class="btn btn-primary feature-btn" style="margin-left:10px;">Learn More</button>
-            </li>
-            <li>Access passwords from anywhere
-                <button class="btn btn-primary feature-btn" style="margin-left:10px;">Learn More</button>
-            </li>
-        </ul>
+    <div class="col-md-6 text-center">
+        <img src="https://images.pexels.com/photos/3772621/pexels-photo-3772621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A secure digital vault representing strong password management" class="img-fluid">
     </div>
 </div>

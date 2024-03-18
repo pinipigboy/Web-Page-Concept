@@ -1,4 +1,3 @@
-// Controllers/SettingsController.cs
 using Microsoft.AspNetCore.Mvc;
 using FinalProject.Models;
 using FinalProject.Services;
